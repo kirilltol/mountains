@@ -118,6 +118,7 @@ h1 {
     cursor: pointer;
 
 }
+
 .more:hover {
     background: white;
     color: black;
@@ -194,39 +195,44 @@ h1 {
     height: 326px;
     background-size: cover;
     display: inline-block;
-float: left;
-   
-    
+    float: left;
+
+
 }
+
 @media only screen and (min-width: 1330px) {
     .tours {
-   
-/*   margin-right: 40px; */
-    
+
+        /*   margin-right: 40px; */
+
+    }
 }
-}
+
 .alltours {
-   width: 220%;
+    width: 220%;
     position: relative;
     transition: all ease 1s;
     left: 0;
-       
+
 }
+
 #slider {
     width: 85.6%;
     height: 326px;
-    
+
     margin-left: 7.2%;
     margin-top: 80px;
     overflow: hidden;
-    
+
 }
+
 .alltours::after {
     content: '';
     display: block;
     clear: both;
-    
+
 }
+
 .city {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -476,9 +482,11 @@ td {
     padding-left: 30px;
 
 }
+
 .russia tr:not(:first-child):hover {
     background: #061B28;
 }
+
 .news tr:last-child td:last-child {
     border: none;
     padding: 0;
@@ -489,10 +497,12 @@ td {
 
     background: #061B28;
 }
+
 .newsbtn:hover {
     cursor: pointer;
     box-shadow: 0px 4px 10px black;
 }
+
 .news td p:checked {
     color: #FCFCFC;
 }
@@ -645,9 +655,11 @@ form button {
     margin-top: 65px;
     cursor: pointer;
 }
+
 form button:hover {
     box-shadow: 0px 4px 10px black;
 }
+
 .help .takebtn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -694,46 +706,52 @@ form button:hover {
     margin-top: 170px;
     margin-left: 70px;
 }
+
 .add img {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 20px;
 }
+
 .foot {
-width: 100%;
-height: 121px;
-background: #061B28;
+    width: 100%;
+    height: 121px;
+    background: #061B28;
     margin-top: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 p1 {
     margin-left: 7.2%;
     font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 150%;
-color: #FCFCFC;
-   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FCFCFC;
+
 }
+
 p2 {
-     margin-right: 7.2%;
-       font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 150%;
-color: #FCFCFC;
-   
+    margin-right: 7.2%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FCFCFC;
+
 }
+
 .add img:hover {
     background: #EC5118;
     cursor: pointer;
     border-radius: 50%;
 }
+
 .tour1:hover {
     background: none, url('Rectangle%203-1.jpg');
     background-blend-mode: screen;
@@ -748,6 +766,314 @@ color: #FCFCFC;
     background: none, url('Rectangle%203.jpg');
     background-blend-mode: screen;
 }
-#clickme1, #clickme2, #clickme3, #clickme4, #clickme5 {
+
+#clickme1,
+#clickme2,
+#clickme3,
+#clickme4,
+#clickme5 {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .head {
+        height: 500px;
+    }
+
+    tel {
+        padding-top: 0px;
+        margin-right: 20px;
+        align-self: center;
+    }
+
+    nav {
+        margin: auto;
+        justify-content: space-between;
+        display: flex;
+        padding-top: 10px;
+    }
+
+    .nav {
+        margin-right: 5px;
+    }
+
+    .icon1 {
+        margin-right: 20px;
+    }
+
+    .icon1,
+    .icon2 {
+        margin-top: auto;
+    }
+
+    .top-right {
+        right: 0%;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .log {
+        left: auto;
+        top: 5px;
+        position: relative;
+
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 13%;
+    }
+
+    .elbrus {
+        font-size: 15px;
+    }
+    main {
+        margin: auto;
+    }
+.mapandp h2 {
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+     margin-top: 80px;
+}
+
+.aboutTour {
+    font-size: 14px;
+    margin-left: 7.2%;
+    margin-top: 50px;
+
+}
+.map {
+    position: relative;
+    width: 95%;
+    left: 0;
+    top: 50px;
+}
+
+.popular h2 {
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+.alltours {
+    width: 1800%;
+}
+
+.left {
+
+    right: 19%;
+}
+
+.russia {
+    margin-top: 180px;
+    height: 500px;
+}
+
+.russia h2 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.russia p {
+    font-size: 15px;
+}
+
+.tabletop td {
+    font-size: 10px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.tabletop:last-child td:last-child {
+    padding-right: 10px;
+}
+
+.rows td {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rows:last-child td:last-child {
+
+    padding-right: 10px;
+}
+
+.russiamoun {
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.blog h2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.news td {
+    border-bottom: 1px solid #061B28;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+width: 100%;
+}
+
+.news tr:last-child td:last-child {
+    padding-top: 10px;
+    width: 100%;
+}
+    .news tr {
+        width: 100%;
+    }
+.news td h6 {
+    padding-bottom: 8px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.news td p {
+    font-size: 13px;
+    width: 100%;
+}
+
+.newsbtn {
+    font-size: 16px;
+}
+
+.blogcontent {
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.news {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgnews {
+    margin-top: 20px;
+    margin-left: 0%;
+    width: 100%;
+    margin-right: 0;
+}
+
+.imgnews img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+date {
+    font-size: 14px;
+margin-left: 15px;
+}
+
+.imgnews h3 {
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.imgnews p {
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.help {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.help h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.help p {
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+     text-align: center;
+}
+
+input {
+    width: 94%;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+form button {
+    width: 94%;
+    margin-left: 20px;
+    margin-top: 65px;
+  
+}
+.adress img {
+    margin-top: 100px;
+    margin-left: 0%;
+    width: 100%;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress p {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.adress span,
+.adress tel,
+.adress mail {
+    font-size: 22px;
+}
+
+.add {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.add img {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 10%;
+}
+
+.foot {
+    width: 100%;
+    margin-top: 40px;
+   
+    height: 70px;
+}
+    .foot img {
+        width: 10%;
+    }
+p1 {
+    margin-left: 7.2%;
+    font-size: 8px;
+}
+
+p2 {
+    font-size: 8px;
+}
+
 }
